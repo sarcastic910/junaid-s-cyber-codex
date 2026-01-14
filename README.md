@@ -10,9 +10,8 @@
 
 I'm a security-minded web developer and tinkerer. This repo powers my personal portfolio website — "Junaid's Cyber Codex" — where I highlight projects, walkthroughs, and tools I built while exploring web development and cyber security.
 
-- Location: (Your City, Country)
-- Role: Full‑stack dev | Security enthusiast
-- Contact: hello@junaid.example (replace with your email)
+
+- Role: Security enthusiast
 
 ---
 
@@ -21,15 +20,7 @@ I'm a security-minded web developer and tinkerer. This repo powers my personal p
 Check out the live site (when deployed): [your-domain.com](https://your-domain.com) or the GitHub Pages / Vercel link.
 
 
-## 🚀 Featured Projects
 
-- **Project One** — A short, punchy one-liner describing what it does. [Live](#) · [Code](#)
-- **Project Two** — A cool tool or writeup focused on security. [Live](#) · [Code](#)
-- **Project Three** — Another project that shows off the stack. [Live](#) · [Code](#)
-
-Add screenshots or GIFs of projects in the `assets/` folder and link them here.
-
----
 
 ## 🧰 Tech Stack
 
@@ -79,12 +70,8 @@ If the site is static HTML, just open `index.html` in a browser.
 
 ## 🖼️ Screenshots
 
-Drop screenshots in `assets/` and reference them here:
 
-```
-![Homepage](assets/screenshot-home.png)
-![Project](assets/screenshot-project.png)
-```
+
 
 ---
 
