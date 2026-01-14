@@ -1,100 +1,73 @@
-# 🌐 Junaid's Cyber Codex
+# Junaid's Cyber Codex
 
-![Codex banner](https://picsum.photos/seed/codex-banner/1200/300)
+This repository contains the source code for my personal portfolio website — "Junaid's Cyber Codex." The previous README was misleading; this project is a portfolio site that showcases my projects, skills, and contact information.
 
-[![License](https://img.shields.io/badge/license-MIT-brightgreen.svg)](./LICENSE) [![Built with Vite](https://img.shields.io/badge/built%20with-Vite-%23646CFF.svg)](https://vitejs.dev/) [![TypeScript](https://img.shields.io/badge/TypeScript-%233178C6.svg?logo=typescript&logoColor=white)](https://www.typescriptlang.org/) [![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-%2338B2AC.svg?logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+## About
 
-A colorful, fast, and friendly static frontend that collects handy cyber-security tips, code snippets and curated resources — presented as a "codex" you can fork and extend.
+This site is my personal portfolio. It includes sections for:
+- About / Bio
+- Projects and case studies
+- Skills and technologies
+- Blog or articles (optional)
+- Contact information
 
----
+## Demo
 
-## ✨ Highlights
+If this site is deployed, add the live URL here (e.g. https://your-domain.com or GitHub Pages/Netlify/Vercel link).
 
-- Clean TypeScript + Vite setup for quick iteration
-- Styled with Tailwind CSS for a modern look
-- Static site ready to deploy on Vercel / Netlify / GitHub Pages
-- Easy to extend: add cards, snippets or articles in `src/`
+## Technologies
 
-## 📸 Screenshots (auto-generated placeholders)
+Replace these with the actual technologies used in this repo. Common stacks:
+- HTML, CSS, JavaScript
+- Or: React / Next.js / Vite / Gatsby
+- Or: Static HTML + CSS
 
-> These are placeholder screenshots generated automatically. Replace them with real screenshots from your app to showcase features.
+## Local development
 
-![Homepage preview 1](https://picsum.photos/seed/cyber1/1000/400)
+Instructions depend on the stack used. Examples:
 
-![Homepage preview 2](https://picsum.photos/seed/cyber2/1000/400)
+Static site (no build step):
 
----
+1. Open `index.html` in your browser.
 
-## 🚀 Quickstart
+Node-based site (React / Next / Vite):
 
-1. Clone the repo
+1. Install dependencies:
 
-```bash
-git clone https://github.com/sarcastic910/junaid-s-cyber-codex.git
-cd junaid-s-cyber-codex
-```
+   ```bash
+   npm install
+   ```
 
-2. Install dependencies
+2. Start the development server:
 
-```bash
-npm install
-# or
-# pnpm install
-# or
-# bun install
-```
+   ```bash
+   npm run dev
+   ```
 
-3. Start dev server
+3. Build for production:
 
-```bash
-npm run dev
-```
+   ```bash
+   npm run build
+   ```
 
-Open `http://localhost:5173` (or the URL shown in the terminal).
+If this repository uses a different workflow (Python, Hugo, etc.), replace the commands above with the appropriate ones.
 
----
+## Contributing
 
-## 🧰 Scripts
+This is primarily my personal portfolio, so contributions are optional. If you want to help, open an issue or a pull request with suggested changes.
 
-Check `package.json` for exact script names. Common ones:
+## License
 
-- `npm run dev` — start dev server
-- `npm run build` — production build
-- `npm run preview` — preview production build
-- `npm run lint` — linting (if configured)
+Add a license file if you want to make the repo open-source. If none is present, include a LICENSE of your choice (e.g., MIT) or leave as private.
 
----
+## Contact
 
-## 🧩 Project structure
+Preferably link to a contact email or the GitHub profile. For example:
 
-- `public/` — static assets
-- `src/` — app source (TypeScript, components, styles)
-- `index.html` — main entry
-- `package.json` — scripts & deps
-- `vite.config.ts` — Vite config
-- `tailwind.config.ts` — Tailwind config
+- GitHub: https://github.com/sarcastic910
 
 ---
 
-## 🤝 Contributing
-
-Contributions welcome! A few friendly tips:
-
-1. Fork the repo
-2. Create a branch: `feature/<name>` or `fix/<name>`
-3. Implement and test your change
-4. Open a PR describing what you changed and why
-
-Pro tip: Add a screenshot or animated GIF to your PR to show what changed visually.
-
----
-
-## 📦 License
-
-This repository is released under the MIT License — see [LICENSE](./LICENSE).
-
----
-
-## 📬 Contact
-
-Created by @sarcastic910. Want help improving the codex? Open an issue or a PR and let's make it shine!
+Notes for me (repository owner):
+- Update the `Demo` and `Technologies` sections with accurate links and the actual stack used by this project.
+- Add screenshots, a VIDEO demo, or deployment URL if available.
