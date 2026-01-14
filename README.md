@@ -1,73 +1,94 @@
-# Welcome to your Lovable project
+# Junaid's Cyber Codex
 
-## Project info
+A small TypeScript + Vite frontend project (static site) containing a curated "cyber codex" of tips, snippets and resources. The project uses Vite, Tailwind CSS, and TypeScript. This README adds usage, development and contribution instructions to help developers get started.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+## Features
 
-## How can I edit this code?
+- TypeScript + Vite powered frontend
+- Tailwind CSS for styling
+- Ready-to-edit static site (index.html + src/public)
 
-There are several ways of editing your application.
+## Prerequisites
 
-**Use Lovable**
+- Node.js (>=16) or Bun (if you prefer)
+- npm, yarn, or pnpm
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+## Quickstart
 
-Changes made via Lovable will be committed automatically to this repo.
+1. Clone the repository
 
-**Use your preferred IDE**
+   git clone https://github.com/sarcastic910/junaid-s-cyber-codex.git
+   cd junaid-s-cyber-codex
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+2. Install dependencies
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+   npm install
+   # or
+   # yarn
+   # pnpm install
+   # or with Bun: bun install
 
-Follow these steps:
+3. Run the development server
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+   npm run dev
+   # or bun dev (if configured)
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+4. Open http://localhost:5173 (or the URL shown in the terminal)
 
-# Step 3: Install the necessary dependencies.
-npm i
+> Note: Check `package.json` for the exact script names used in this repository.
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+## Build for production
 
-**Edit a file directly in GitHub**
+   npm run build
+   npm run preview
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+This will produce optimized assets in the `dist/` directory (or the output location configured in Vite).
 
-**Use GitHub Codespaces**
+## Project structure (overview)
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+- public/       — Static assets
+- src/          — Source files (TypeScript, components, styles)
+- index.html    — App entry
+- package.json  — Project metadata & scripts
+- vite.config.ts — Vite configuration
+- tailwind.config.ts — Tailwind configuration
 
-## What technologies are used for this project?
+## Linting & formatting
 
-This project is built with:
+If ESLint / Prettier are configured, run:
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+   npm run lint
+   npm run format
 
-## How can I deploy this project?
+## Contributing
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+Contributions are welcome. Please:
 
-## Can I connect a custom domain to my Lovable project?
+1. Fork the repository
+2. Create a branch: `feature/your-feature` or `fix/your-fix`
+3. Make your changes and add tests if applicable
+4. Open a pull request describing your change
 
-Yes, you can!
+If you need help shaping features, open an issue describing what you'd like to add.
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## Deployment
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+You can deploy the site on static hosting services such as Vercel, Netlify, or GitHub Pages. The production build output (usually `dist/`) can be served as a static site.
+
+## Troubleshooting
+
+If something doesn't run:
+- Ensure your Node version meets the project's requirements
+- Delete `node_modules` and reinstall
+- Check the console for Vite build/run errors
+
+## License
+
+No license specified. Add a LICENSE file or set a license in `package.json` if you want to make the project open-source.
+
+## Contact
+
+Created by @sarcastic910. If you have questions or want to collaborate, open an issue or reach out via your GitHub profile.
+
+
+(This README was added via an automated assistant to provide initial guidance.)
