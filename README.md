@@ -13,14 +13,6 @@ I'm a security-minded web developer and tinkerer. This repo powers my personal p
 
 - Role: Security enthusiast
 
----
-
-## 🔥 Live Demo
-
-Check out the live site (when deployed): [your-domain.com](https://your-domain.com) or the GitHub Pages / Vercel link.
-
-
-
 
 ## 🧰 Tech Stack
 
@@ -58,39 +50,15 @@ npm run build
 
 If the site is static HTML, just open `index.html` in a browser.
 
----
-
-## 📦 Deployment
-
-- Vercel: Connect the repo and set the build command to `npm run build` (if applicable).
-- Netlify: Set the publish directory to `out` or `build` depending on the framework.
-- GitHub Pages: Use `gh-pages` or deploy from the `main` branch's `docs/` folder.
-
----
-
-## 🖼️ Screenshots
-
-
-
-
----
 
 ## 🤝 Contributing
 
 This is my personal portfolio; contributions are optional. If you'd like to suggest content or fixes, open an issue or a PR and I'll review it.
 
----
-
-## 📝 License
-
-This repo can be licensed under the MIT License — add a `LICENSE` file if you want to open-source it.
-
----
-
 ## 📬 Contact
 
 - GitHub: https://github.com/sarcastic910
-- Email: hello@junaid.example (replace with your real email)
+- Email: junaidmanzoor910@gmail.com
 
 ---
 
